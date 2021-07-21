@@ -1,16 +1,10 @@
 # inText-it
 ## What is this?
 
-------------
-
-
 This is a python desktop application that uses a simplified Steganography algorithm to encodes text in images
 
 
 ## How To use it?
-
-------------
-
 
 #### Encoding
 1. Select an image
@@ -26,9 +20,6 @@ This is a python desktop application that uses a simplified Steganography algori
 
 ## Legend
 
-------------
-
-
 ![Screenshot](https://i.imgur.com/knv4yW1.png "Screenshot")
 1. A preview of the image currently selected
 2. Allows you to select an image
@@ -40,7 +31,6 @@ This is a python desktop application that uses a simplified Steganography algori
 9. Generates a randomly generated secret key to encrypts the message with
 
 ## Known Issues
-------------
 
 1. Selecting "Hide message" or "Reveal message" without selecting an image crashes the program
 2. Selecting "Hide message" or "Reveal message" with a key less than 5 in length crashes the program
