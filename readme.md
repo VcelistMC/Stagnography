@@ -1,12 +1,30 @@
 # inText-it
-### What is this?
+## What is this?
 
 ------------
 
 
 This is a python desktop application that uses a simplified Steganography algorithm to encodes text in images
 
-### Legend
+
+## How To use it?
+
+------------
+
+
+#### Encoding
+1. Select an image
+2. Write your message in the text box
+3. (Optional) Enter a secret key to be used in the encryption process (Must me more than 5 in length)
+4. (Optional) Enter a custom file name to be saved as, Default is "ouput.png" and will be saved in the same folder as the original image
+5. Hide your message
+
+#### Decoding
+1. Select an image
+2. (Optional) Enter a secret key to be used in the decryption process (Must me more than 5 in length)
+3. Hide your message
+
+## Legend
 
 ------------
 
@@ -21,20 +39,8 @@ This is a python desktop application that uses a simplified Steganography algori
 7. Decodes the current message to the text box from the image
 9. Generates a randomly generated secret key to encrypts the message with
 
-### How To use it?
-
+## Known Issues
 ------------
 
-
-#### Encoding
-1. Select an image
-2. Write your message in the text box
-3. (Optional) Enter a secret key to be used in the encryption process
-4. (Optional) Enter a custom file name to be saved as, Default is "ouput.png" and will be saved in the same folder as the original image
-5. Hide your message
-
-#### Decoding
-1. Select an image
-2. (Optional) Enter a secret key to be used in the decryption process
-3. Hide your message
-
+1. Selecting "Hide message" or "Reveal message" without selecting an image crashes the program
+2. Selecting "Hide message" or "Reveal message" with a key less than 5 in length crashes the program
