@@ -79,7 +79,7 @@ class Ui_Bruh(object):
 
     def retranslateUi(self, Bruh):
         _translate = QtCore.QCoreApplication.translate
-        Bruh.setWindowTitle(_translate("Bruh", "Stegonagrphy Tool"))
+        Bruh.setWindowTitle(_translate("Bruh", "inText-it"))
         self.Preview_gbox.setTitle(_translate("Bruh", "Preview"))
         self.select_image.setText(_translate("Bruh", "Select Image"))
         self.embed_msg.setText(_translate("Bruh", "Hide Message"))
